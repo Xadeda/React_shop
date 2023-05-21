@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+.productItem{
+    height: auto;
+    width: 100%;
+}
+.productItemH1{
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+    background-size: cover;
+    background-image: url(https://preview.colorlib.com/theme/timezone/assets/img/hero/about_hero.png.webp);
+    z-index: -1;
+}
+
+
+
+.productItemH1 > h1 {
+    color: rgba(22, 12, 78, 0.961);
+    font-size: 65px;
+   
+}
+.watch{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding:  0 150px;
+    text-align: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navDiv{
+    height: 90px;
+    width: 100%;
+}
+.nav{
+    height: 100%;
+    width: 70%;
+    margin:  0 auto;
+    position: sticky;
+    top: 0;
+}
+
+nav  a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    transition: .3s;
+}
+
+nav  a:hover, .activeNav{
+    text-decoration: underline;
+    color: rgb(102, 76, 76);
+    transition: .5s;
+}
+
+nav ul li{
+    list-style: none;
+}
+ 
+nav ul{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+} 
+.navBagDiv{
+    cursor: pointer;
+}
+.badge{
+    background-color: red;
+    border: none;
+    color: rgb(19, 18, 18);
+    width: 18px;
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+.contactDiv{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+} 
+.h1div{
+    height: 70vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://preview.colorlib.com/theme/timezone/assets/img/hero/about_hero.png.webp);
+    background-repeat: no-repeat;
+}
+.h1div > h1 {
+    color: rgba(22, 12, 78, 0.961);
+    font-size: 65px;
+}
+.mapsDiv{
+    height: 70vh;
+    width: 80%;
+
+}
+
+.gmap_iframe{
+    height: 100%;
+    width: 100%;
+}

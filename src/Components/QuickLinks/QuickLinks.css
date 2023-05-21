@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+
+.quickLinksDiv{
+    height: auto;
+    width: 330px;
+    background-color: rgb(255, 0, 0);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.activeNav{
+    text-decoration: underline;
+    color: rgb(102, 76, 76);
+    transition: .5s;
+}
+.quickLinksDiv > a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    transition: .3s;
+}
+.quickLinksDiv > h4 {
+    font-size: 23px;
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+.aboutSeqSys{
+    margin-top: 30px;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutSeqSys > div{
+    height: 60%;
+    width: 25%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 25px;
+    color: white;
+}
+.aboutSeqSys > div > h4{
+        font-size: 24px;
+        margin-bottom: 20px;
+}
+
+.aboutSeqSys > div >p{
+    font-size: 18px;
+    line-height: 29px;
+}

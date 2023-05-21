@@ -1,0 +1,8 @@
+.bagDiv{
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    background-color: red;
+    /* z-index: 1; */
+    float: right;
+}
